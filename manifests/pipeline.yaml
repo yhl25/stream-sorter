@@ -38,9 +38,9 @@ spec:
       sink:
         log: {}
   edges:
-    - from: http-one
+    - from: input-one
       to: accum
-    - from: http-two
+    - from: input-two
       to: accum
     - from: accum
       to: sink
