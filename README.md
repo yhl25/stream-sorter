@@ -48,5 +48,5 @@ kubectl apply -f https://raw.githubusercontent.com/yhl25/stream-sorter/main/mani
 To verify the sorted messages, run the following command to view the logs of the sink vertex, the output messages should be sorted by event time.
 NOTE: replace `stream-sorter-log-sink-xxxx` with the actual name of the sink vertex pod
 ```shell
-kubectl logs -f stream-sorter-log-sink-xxxx
+kubectl logs -f stream-sorter-sink-0-xxxx
 ```
